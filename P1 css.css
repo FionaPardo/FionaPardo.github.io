@@ -1,0 +1,59 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(208, 255, 100);
+    font-family: Verdana, Tahoma, sans-serif; 
+    overflow-x: hidden; 
+}
+#top {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100vw;
+    height: 15vh;
+    background: linear-gradient(60deg, rgb(5, 139, 5), rgb(90, 240, 52), rgb(168, 240, 52));
+    color: rgb(2,74,2); 
+    padding: 4px; 
+    display:inline-flexbox;
+}
+#top #title {
+    text-shadow: 4px 4px 4px  rgb(208, 255, 100);
+    font-weight: bold; 
+    text-align: center; 
+}
+#top #author {
+    font-style: italic;
+    text-align: right; 
+    margin-right: 3vw; 
+    color: rgb(2,74,2);
+}
+#first-entry {
+    margin-top: 18vh; 
+}
+.entry {
+    margin-left: 2.5vw; 
+    margin-right: 2.5vw;
+    margin-bottom: 4vh;
+    color: rgb(2,74,2);
+}
+.entry #sub-title {
+    text-align: right; 
+}
+#paragraph {
+    text-align: justify; 
+    padding-bottom: 6px;
+    text-indent: 3vw; 
+}
+#poem #poem-line {
+    text-align: center; 
+    font-style: italic;
+    font-weight: bold; 
+    text-indent: 3vw; 
+}
+#line {
+    height: 4px;
+    width: 100vw;
+    background-color: rgb(14, 56, 3);
+    display: block;
+    align-items: center; 
+}
